@@ -1,0 +1,26 @@
+{
+  "name": "landwatch-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PWalkersCrisps/landwatch-scraper.git"
+  },
+  "author": "pwalkerscrisps",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/PWalkersCrisps/landwatch-scraper/issues"
+  },
+  "homepage": "https://github.com/PWalkersCrisps/landwatch-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "request-promise": "^4.2.6"
+  }
+}
